@@ -1,0 +1,652 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/jrcamilon/.nvm/versions/node/v7.7.4/bin/node',
+1 verbose cli   '/Users/jrcamilon/.nvm/versions/node/v7.7.4/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jsupm_uln200xa' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 verbose config Skipping project config: /Users/jrcamilon/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData jsupm_uln200xa
+9 silly fetchNamedPackageData jsupm_uln200xa
+10 silly mapToRegistry name jsupm_uln200xa
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'jsupm_uln200xa',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'jsupm_uln200xa',
+13 silly mapToRegistry   name: 'jsupm_uln200xa',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/jsupm_uln200xa
+15 verbose request uri https://registry.npmjs.org/jsupm_uln200xa
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 3:14:47 PM
+18 verbose request id 13b92a0688f3d0ad
+19 verbose etag W/"585213a8-338a"
+20 verbose lastModified Thu, 15 Dec 2016 03:53:12 GMT
+21 http request GET https://registry.npmjs.org/jsupm_uln200xa
+22 http 304 https://registry.npmjs.org/jsupm_uln200xa
+23 verbose headers { date: 'Sat, 25 Mar 2017 22:14:47 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   etag: 'W/"585213a8-338a"',
+23 verbose headers   age: '66',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-sea1030-SEA',
+23 verbose headers   'x-cache': 'HIT',
+23 verbose headers   'x-cache-hits': '1',
+23 verbose headers   'x-timer': 'S1490480087.535086,VS0,VE0',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 304,
+24 silly get   { date: 'Sat, 25 Mar 2017 22:14:47 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     etag: 'W/"585213a8-338a"',
+24 silly get     age: '66',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-sea1030-SEA',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1490480087.535086,VS0,VE0',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose etag https://registry.npmjs.org/jsupm_uln200xa from cache
+26 verbose get saving jsupm_uln200xa to /Users/jrcamilon/.npm/registry.npmjs.org/jsupm_uln200xa/.cache.json
+27 verbose correctMkdir /Users/jrcamilon/.npm correctMkdir not in flight; initializing
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly resolveWithNewModule jsupm_uln200xa@1.0.2-src checking installable status
+41 silly cache add args [ 'jsupm_uln200xa', null ]
+42 verbose cache add spec jsupm_uln200xa
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'jsupm_uln200xa',
+43 silly cache add   scope: null,
+43 silly cache add   escapedName: 'jsupm_uln200xa',
+43 silly cache add   name: 'jsupm_uln200xa',
+43 silly cache add   rawSpec: '',
+43 silly cache add   spec: 'latest',
+43 silly cache add   type: 'tag' }
+44 silly addNamed jsupm_uln200xa@latest
+45 verbose addNamed "latest" is being treated as a dist-tag for jsupm_uln200xa
+46 info addNameTag [ 'jsupm_uln200xa', 'latest' ]
+47 silly mapToRegistry name jsupm_uln200xa
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'jsupm_uln200xa',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   escapedName: 'jsupm_uln200xa',
+50 silly mapToRegistry   name: 'jsupm_uln200xa',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri https://registry.npmjs.org/jsupm_uln200xa
+52 verbose addNameTag registry:https://registry.npmjs.org/jsupm_uln200xa not in flight; fetching
+53 verbose get https://registry.npmjs.org/jsupm_uln200xa not expired, no request
+54 silly addNameTag next cb for jsupm_uln200xa with tag latest
+55 silly addNamed jsupm_uln200xa@1.0.2-src
+56 verbose addNamed "1.0.2-src" is a plain semver version for jsupm_uln200xa
+57 silly cache afterAdd jsupm_uln200xa@1.0.2-src
+58 verbose afterAdd /Users/jrcamilon/.npm/jsupm_uln200xa/1.0.2-src/package/package.json not in flight; writing
+59 verbose correctMkdir /Users/jrcamilon/.npm correctMkdir not in flight; initializing
+60 verbose afterAdd /Users/jrcamilon/.npm/jsupm_uln200xa/1.0.2-src/package/package.json written
+61 silly loadAllDepsIntoIdealTree Finishing
+62 silly loadIdealTree Finishing
+63 silly currentTree jrcamilon
+63 silly currentTree ├── ansi-regex@2.1.1
+63 silly currentTree ├── ansi-styles@2.2.1
+63 silly currentTree ├── bindings@1.2.1
+63 silly currentTree ├── browser-serialport@2.1.0
+63 silly currentTree ├── chalk@1.1.3
+63 silly currentTree ├── color-convert@1.2.2
+63 silly currentTree ├── commander@2.9.0
+63 silly currentTree ├── debug@2.6.3
+63 silly currentTree ├── define-properties@1.1.2
+63 silly currentTree ├── ease-component@1.0.0
+63 silly currentTree ├── es6-shim@0.35.3
+63 silly currentTree ├── escape-string-regexp@1.0.5
+63 silly currentTree ├── firmata@0.15.0
+63 silly currentTree ├── foreach@2.0.5
+63 silly currentTree ├── function-bind@1.1.0
+63 silly currentTree ├── graceful-readlink@1.0.1
+63 silly currentTree ├── has-ansi@2.0.0
+63 silly currentTree ├── immediate@3.0.6
+63 silly currentTree ├── johnny-five@0.10.6
+63 silly currentTree ├── lie@3.1.1
+63 silly currentTree ├── lodash.clonedeep@4.5.0
+63 silly currentTree ├── lodash.debounce@4.0.8
+63 silly currentTree ├── ms@0.7.2
+63 silly currentTree ├── nan@2.5.1
+63 silly currentTree ├── nanotimer@0.3.10
+63 silly currentTree ├── object-keys@1.0.11
+63 silly currentTree ├── object.assign@4.0.4
+63 silly currentTree ├─┬ serialport@4.0.7
+63 silly currentTree │ └─┬ node-pre-gyp@0.6.32
+63 silly currentTree │   ├─┬ mkdirp@0.5.1
+63 silly currentTree │   │ └── minimist@0.0.8
+63 silly currentTree │   ├─┬ nopt@3.0.6
+63 silly currentTree │   │ └── abbrev@1.0.9
+63 silly currentTree │   ├─┬ npmlog@4.0.1
+63 silly currentTree │   │ ├─┬ are-we-there-yet@1.1.2
+63 silly currentTree │   │ │ ├── delegates@1.0.0
+63 silly currentTree │   │ │ └─┬ readable-stream@2.2.2
+63 silly currentTree │   │ │   ├── buffer-shims@1.0.0
+63 silly currentTree │   │ │   ├── core-util-is@1.0.2
+63 silly currentTree │   │ │   ├── inherits@2.0.3
+63 silly currentTree │   │ │   ├── isarray@1.0.0
+63 silly currentTree │   │ │   ├── process-nextick-args@1.0.7
+63 silly currentTree │   │ │   ├── string_decoder@0.10.31
+63 silly currentTree │   │ │   └── util-deprecate@1.0.2
+63 silly currentTree │   │ ├── console-control-strings@1.1.0
+63 silly currentTree │   │ ├─┬ gauge@2.7.2
+63 silly currentTree │   │ │ ├── aproba@1.0.4
+63 silly currentTree │   │ │ ├── has-unicode@2.0.1
+63 silly currentTree │   │ │ ├── object-assign@4.1.0
+63 silly currentTree │   │ │ ├── signal-exit@3.0.2
+63 silly currentTree │   │ │ ├─┬ string-width@1.0.2
+63 silly currentTree │   │ │ │ ├── code-point-at@1.1.0
+63 silly currentTree │   │ │ │ └─┬ is-fullwidth-code-point@1.0.0
+63 silly currentTree │   │ │ │   └── number-is-nan@1.0.1
+63 silly currentTree │   │ │ ├─┬ strip-ansi@3.0.1
+63 silly currentTree │   │ │ │ └── ansi-regex@2.0.0
+63 silly currentTree │   │ │ ├── supports-color@0.2.0
+63 silly currentTree │   │ │ └── wide-align@1.1.0
+63 silly currentTree │   │ └── set-blocking@2.0.0
+63 silly currentTree │   ├─┬ rc@1.1.6
+63 silly currentTree │   │ ├── deep-extend@0.4.1
+63 silly currentTree │   │ ├── ini@1.3.4
+63 silly currentTree │   │ ├── minimist@1.2.0
+63 silly currentTree │   │ └── strip-json-comments@1.0.4
+63 silly currentTree │   ├─┬ request@2.79.0
+63 silly currentTree │   │ ├── aws-sign2@0.6.0
+63 silly currentTree │   │ ├── aws4@1.5.0
+63 silly currentTree │   │ ├── caseless@0.11.0
+63 silly currentTree │   │ ├─┬ combined-stream@1.0.5
+63 silly currentTree │   │ │ └── delayed-stream@1.0.0
+63 silly currentTree │   │ ├── extend@3.0.0
+63 silly currentTree │   │ ├── forever-agent@0.6.1
+63 silly currentTree │   │ ├─┬ form-data@2.1.2
+63 silly currentTree │   │ │ └── asynckit@0.4.0
+63 silly currentTree │   │ ├─┬ har-validator@2.0.6
+63 silly currentTree │   │ │ ├─┬ chalk@1.1.3
+63 silly currentTree │   │ │ │ ├── ansi-styles@2.2.1
+63 silly currentTree │   │ │ │ ├── escape-string-regexp@1.0.5
+63 silly currentTree │   │ │ │ ├─┬ has-ansi@2.0.0
+63 silly currentTree │   │ │ │ │ └── ansi-regex@2.0.0
+63 silly currentTree │   │ │ │ ├─┬ strip-ansi@3.0.1
+63 silly currentTree │   │ │ │ │ └── ansi-regex@2.0.0
+63 silly currentTree │   │ │ │ └── supports-color@2.0.0
+63 silly currentTree │   │ │ ├─┬ is-my-json-valid@2.15.0
+63 silly currentTree │   │ │ │ ├── generate-function@2.0.0
+63 silly currentTree │   │ │ │ ├─┬ generate-object-property@1.2.0
+63 silly currentTree │   │ │ │ │ └── is-property@1.0.2
+63 silly currentTree │   │ │ │ ├── jsonpointer@4.0.0
+63 silly currentTree │   │ │ │ └── xtend@4.0.1
+63 silly currentTree │   │ │ └─┬ pinkie-promise@2.0.1
+63 silly currentTree │   │ │   └── pinkie@2.0.4
+63 silly currentTree │   │ ├─┬ hawk@3.1.3
+63 silly currentTree │   │ │ ├── boom@2.10.1
+63 silly currentTree │   │ │ ├── cryptiles@2.0.5
+63 silly currentTree │   │ │ ├── hoek@2.16.3
+63 silly currentTree │   │ │ └── sntp@1.0.9
+63 silly currentTree │   │ ├─┬ http-signature@1.1.1
+63 silly currentTree │   │ │ ├── assert-plus@0.2.0
+63 silly currentTree │   │ │ ├─┬ jsprim@1.3.1
+63 silly currentTree │   │ │ │ ├── extsprintf@1.0.2
+63 silly currentTree │   │ │ │ ├── json-schema@0.2.3
+63 silly currentTree │   │ │ │ └── verror@1.3.6
+63 silly currentTree │   │ │ └─┬ sshpk@1.10.1
+63 silly currentTree │   │ │   ├── asn1@0.2.3
+63 silly currentTree │   │ │   ├── assert-plus@1.0.0
+63 silly currentTree │   │ │   ├── bcrypt-pbkdf@1.0.0
+63 silly currentTree │   │ │   ├── dashdash@1.14.1
+63 silly currentTree │   │ │   ├── ecc-jsbn@0.1.1
+63 silly currentTree │   │ │   ├── getpass@0.1.6
+63 silly currentTree │   │ │   ├── jodid25519@1.0.2
+63 silly currentTree │   │ │   ├── jsbn@0.1.0
+63 silly currentTree │   │ │   └── tweetnacl@0.14.4
+63 silly currentTree │   │ ├── is-typedarray@1.0.0
+63 silly currentTree │   │ ├── isstream@0.1.2
+63 silly currentTree │   │ ├── json-stringify-safe@5.0.1
+63 silly currentTree │   │ ├─┬ mime-types@2.1.13
+63 silly currentTree │   │ │ └── mime-db@1.25.0
+63 silly currentTree │   │ ├── oauth-sign@0.8.2
+63 silly currentTree │   │ ├── qs@6.3.0
+63 silly currentTree │   │ ├── stringstream@0.0.5
+63 silly currentTree │   │ ├─┬ tough-cookie@2.3.2
+63 silly currentTree │   │ │ └── punycode@1.4.1
+63 silly currentTree │   │ ├── tunnel-agent@0.4.3
+63 silly currentTree │   │ └── uuid@3.0.1
+63 silly currentTree │   ├─┬ rimraf@2.5.4
+63 silly currentTree │   │ └─┬ glob@7.1.1
+63 silly currentTree │   │   ├── fs.realpath@1.0.0
+63 silly currentTree │   │   ├─┬ inflight@1.0.6
+63 silly currentTree │   │   │ └── wrappy@1.0.2
+63 silly currentTree │   │   ├── inherits@2.0.3
+63 silly currentTree │   │   ├─┬ minimatch@3.0.3
+63 silly currentTree │   │   │ └─┬ brace-expansion@1.1.6
+63 silly currentTree │   │   │   ├── balanced-match@0.4.2
+63 silly currentTree │   │   │   └── concat-map@0.0.1
+63 silly currentTree │   │   ├─┬ once@1.4.0
+63 silly currentTree │   │   │ └── wrappy@1.0.2
+63 silly currentTree │   │   └── path-is-absolute@1.0.1
+63 silly currentTree │   ├── semver@5.3.0
+63 silly currentTree │   ├─┬ tar-pack@3.3.0
+63 silly currentTree │   │ ├─┬ debug@2.2.0
+63 silly currentTree │   │ │ └── ms@0.7.1
+63 silly currentTree │   │ ├─┬ fstream-ignore@1.0.5
+63 silly currentTree │   │ │ ├── inherits@2.0.3
+63 silly currentTree │   │ │ └─┬ minimatch@3.0.3
+63 silly currentTree │   │ │   └─┬ brace-expansion@1.1.6
+63 silly currentTree │   │ │     ├── balanced-match@0.4.2
+63 silly currentTree │   │ │     └── concat-map@0.0.1
+63 silly currentTree │   │ ├─┬ fstream@1.0.10
+63 silly currentTree │   │ │ ├── graceful-fs@4.1.11
+63 silly currentTree │   │ │ └── inherits@2.0.3
+63 silly currentTree │   │ ├─┬ once@1.3.3
+63 silly currentTree │   │ │ └── wrappy@1.0.2
+63 silly currentTree │   │ ├─┬ readable-stream@2.1.5
+63 silly currentTree │   │ │ ├── buffer-shims@1.0.0
+63 silly currentTree │   │ │ ├── core-util-is@1.0.2
+63 silly currentTree │   │ │ ├── inherits@2.0.3
+63 silly currentTree │   │ │ ├── isarray@1.0.0
+63 silly currentTree │   │ │ ├── process-nextick-args@1.0.7
+63 silly currentTree │   │ │ ├── string_decoder@0.10.31
+63 silly currentTree │   │ │ └── util-deprecate@1.0.2
+63 silly currentTree │   │ └── uid-number@0.0.6
+63 silly currentTree │   └─┬ tar@2.2.1
+63 silly currentTree │     ├── block-stream@0.0.9
+63 silly currentTree │     ├─┬ fstream@1.0.10
+63 silly currentTree │     │ └── graceful-fs@4.1.11
+63 silly currentTree │     └── inherits@2.0.3
+63 silly currentTree ├── strip-ansi@3.0.1
+63 silly currentTree ├── supports-color@2.0.0
+63 silly currentTree └── temporal@0.5.0
+64 silly idealTree jrcamilon
+64 silly idealTree ├── ansi-regex@2.1.1
+64 silly idealTree ├── ansi-styles@2.2.1
+64 silly idealTree ├── bindings@1.2.1
+64 silly idealTree ├── browser-serialport@2.1.0
+64 silly idealTree ├── chalk@1.1.3
+64 silly idealTree ├── color-convert@1.2.2
+64 silly idealTree ├── commander@2.9.0
+64 silly idealTree ├── debug@2.6.3
+64 silly idealTree ├── define-properties@1.1.2
+64 silly idealTree ├── ease-component@1.0.0
+64 silly idealTree ├── es6-shim@0.35.3
+64 silly idealTree ├── escape-string-regexp@1.0.5
+64 silly idealTree ├── firmata@0.15.0
+64 silly idealTree ├── foreach@2.0.5
+64 silly idealTree ├── function-bind@1.1.0
+64 silly idealTree ├── graceful-readlink@1.0.1
+64 silly idealTree ├── has-ansi@2.0.0
+64 silly idealTree ├── immediate@3.0.6
+64 silly idealTree ├── johnny-five@0.10.6
+64 silly idealTree ├── jsupm_uln200xa@1.0.2-src
+64 silly idealTree ├── lie@3.1.1
+64 silly idealTree ├── lodash.clonedeep@4.5.0
+64 silly idealTree ├── lodash.debounce@4.0.8
+64 silly idealTree ├── ms@0.7.2
+64 silly idealTree ├── nan@2.5.1
+64 silly idealTree ├── nanotimer@0.3.10
+64 silly idealTree ├── object-keys@1.0.11
+64 silly idealTree ├── object.assign@4.0.4
+64 silly idealTree ├─┬ serialport@4.0.7
+64 silly idealTree │ └─┬ node-pre-gyp@0.6.32
+64 silly idealTree │   ├─┬ mkdirp@0.5.1
+64 silly idealTree │   │ └── minimist@0.0.8
+64 silly idealTree │   ├─┬ nopt@3.0.6
+64 silly idealTree │   │ └── abbrev@1.0.9
+64 silly idealTree │   ├─┬ npmlog@4.0.1
+64 silly idealTree │   │ ├─┬ are-we-there-yet@1.1.2
+64 silly idealTree │   │ │ ├── delegates@1.0.0
+64 silly idealTree │   │ │ └─┬ readable-stream@2.2.2
+64 silly idealTree │   │ │   ├── buffer-shims@1.0.0
+64 silly idealTree │   │ │   ├── core-util-is@1.0.2
+64 silly idealTree │   │ │   ├── inherits@2.0.3
+64 silly idealTree │   │ │   ├── isarray@1.0.0
+64 silly idealTree │   │ │   ├── process-nextick-args@1.0.7
+64 silly idealTree │   │ │   ├── string_decoder@0.10.31
+64 silly idealTree │   │ │   └── util-deprecate@1.0.2
+64 silly idealTree │   │ ├── console-control-strings@1.1.0
+64 silly idealTree │   │ ├─┬ gauge@2.7.2
+64 silly idealTree │   │ │ ├── aproba@1.0.4
+64 silly idealTree │   │ │ ├── has-unicode@2.0.1
+64 silly idealTree │   │ │ ├── object-assign@4.1.0
+64 silly idealTree │   │ │ ├── signal-exit@3.0.2
+64 silly idealTree │   │ │ ├─┬ string-width@1.0.2
+64 silly idealTree │   │ │ │ ├── code-point-at@1.1.0
+64 silly idealTree │   │ │ │ └─┬ is-fullwidth-code-point@1.0.0
+64 silly idealTree │   │ │ │   └── number-is-nan@1.0.1
+64 silly idealTree │   │ │ ├─┬ strip-ansi@3.0.1
+64 silly idealTree │   │ │ │ └── ansi-regex@2.0.0
+64 silly idealTree │   │ │ ├── supports-color@0.2.0
+64 silly idealTree │   │ │ └── wide-align@1.1.0
+64 silly idealTree │   │ └── set-blocking@2.0.0
+64 silly idealTree │   ├─┬ rc@1.1.6
+64 silly idealTree │   │ ├── deep-extend@0.4.1
+64 silly idealTree │   │ ├── ini@1.3.4
+64 silly idealTree │   │ ├── minimist@1.2.0
+64 silly idealTree │   │ └── strip-json-comments@1.0.4
+64 silly idealTree │   ├─┬ request@2.79.0
+64 silly idealTree │   │ ├── aws-sign2@0.6.0
+64 silly idealTree │   │ ├── aws4@1.5.0
+64 silly idealTree │   │ ├── caseless@0.11.0
+64 silly idealTree │   │ ├─┬ combined-stream@1.0.5
+64 silly idealTree │   │ │ └── delayed-stream@1.0.0
+64 silly idealTree │   │ ├── extend@3.0.0
+64 silly idealTree │   │ ├── forever-agent@0.6.1
+64 silly idealTree │   │ ├─┬ form-data@2.1.2
+64 silly idealTree │   │ │ └── asynckit@0.4.0
+64 silly idealTree │   │ ├─┬ har-validator@2.0.6
+64 silly idealTree │   │ │ ├─┬ chalk@1.1.3
+64 silly idealTree │   │ │ │ ├── ansi-styles@2.2.1
+64 silly idealTree │   │ │ │ ├── escape-string-regexp@1.0.5
+64 silly idealTree │   │ │ │ ├─┬ has-ansi@2.0.0
+64 silly idealTree │   │ │ │ │ └── ansi-regex@2.0.0
+64 silly idealTree │   │ │ │ ├─┬ strip-ansi@3.0.1
+64 silly idealTree │   │ │ │ │ └── ansi-regex@2.0.0
+64 silly idealTree │   │ │ │ └── supports-color@2.0.0
+64 silly idealTree │   │ │ ├─┬ is-my-json-valid@2.15.0
+64 silly idealTree │   │ │ │ ├── generate-function@2.0.0
+64 silly idealTree │   │ │ │ ├─┬ generate-object-property@1.2.0
+64 silly idealTree │   │ │ │ │ └── is-property@1.0.2
+64 silly idealTree │   │ │ │ ├── jsonpointer@4.0.0
+64 silly idealTree │   │ │ │ └── xtend@4.0.1
+64 silly idealTree │   │ │ └─┬ pinkie-promise@2.0.1
+64 silly idealTree │   │ │   └── pinkie@2.0.4
+64 silly idealTree │   │ ├─┬ hawk@3.1.3
+64 silly idealTree │   │ │ ├── boom@2.10.1
+64 silly idealTree │   │ │ ├── cryptiles@2.0.5
+64 silly idealTree │   │ │ ├── hoek@2.16.3
+64 silly idealTree │   │ │ └── sntp@1.0.9
+64 silly idealTree │   │ ├─┬ http-signature@1.1.1
+64 silly idealTree │   │ │ ├── assert-plus@0.2.0
+64 silly idealTree │   │ │ ├─┬ jsprim@1.3.1
+64 silly idealTree │   │ │ │ ├── extsprintf@1.0.2
+64 silly idealTree │   │ │ │ ├── json-schema@0.2.3
+64 silly idealTree │   │ │ │ └── verror@1.3.6
+64 silly idealTree │   │ │ └─┬ sshpk@1.10.1
+64 silly idealTree │   │ │   ├── asn1@0.2.3
+64 silly idealTree │   │ │   ├── assert-plus@1.0.0
+64 silly idealTree │   │ │   ├── bcrypt-pbkdf@1.0.0
+64 silly idealTree │   │ │   ├── dashdash@1.14.1
+64 silly idealTree │   │ │   ├── ecc-jsbn@0.1.1
+64 silly idealTree │   │ │   ├── getpass@0.1.6
+64 silly idealTree │   │ │   ├── jodid25519@1.0.2
+64 silly idealTree │   │ │   ├── jsbn@0.1.0
+64 silly idealTree │   │ │   └── tweetnacl@0.14.4
+64 silly idealTree │   │ ├── is-typedarray@1.0.0
+64 silly idealTree │   │ ├── isstream@0.1.2
+64 silly idealTree │   │ ├── json-stringify-safe@5.0.1
+64 silly idealTree │   │ ├─┬ mime-types@2.1.13
+64 silly idealTree │   │ │ └── mime-db@1.25.0
+64 silly idealTree │   │ ├── oauth-sign@0.8.2
+64 silly idealTree │   │ ├── qs@6.3.0
+64 silly idealTree │   │ ├── stringstream@0.0.5
+64 silly idealTree │   │ ├─┬ tough-cookie@2.3.2
+64 silly idealTree │   │ │ └── punycode@1.4.1
+64 silly idealTree │   │ ├── tunnel-agent@0.4.3
+64 silly idealTree │   │ └── uuid@3.0.1
+64 silly idealTree │   ├─┬ rimraf@2.5.4
+64 silly idealTree │   │ └─┬ glob@7.1.1
+64 silly idealTree │   │   ├── fs.realpath@1.0.0
+64 silly idealTree │   │   ├─┬ inflight@1.0.6
+64 silly idealTree │   │   │ └── wrappy@1.0.2
+64 silly idealTree │   │   ├── inherits@2.0.3
+64 silly idealTree │   │   ├─┬ minimatch@3.0.3
+64 silly idealTree │   │   │ └─┬ brace-expansion@1.1.6
+64 silly idealTree │   │   │   ├── balanced-match@0.4.2
+64 silly idealTree │   │   │   └── concat-map@0.0.1
+64 silly idealTree │   │   ├─┬ once@1.4.0
+64 silly idealTree │   │   │ └── wrappy@1.0.2
+64 silly idealTree │   │   └── path-is-absolute@1.0.1
+64 silly idealTree │   ├── semver@5.3.0
+64 silly idealTree │   ├─┬ tar-pack@3.3.0
+64 silly idealTree │   │ ├─┬ debug@2.2.0
+64 silly idealTree │   │ │ └── ms@0.7.1
+64 silly idealTree │   │ ├─┬ fstream-ignore@1.0.5
+64 silly idealTree │   │ │ ├── inherits@2.0.3
+64 silly idealTree │   │ │ └─┬ minimatch@3.0.3
+64 silly idealTree │   │ │   └─┬ brace-expansion@1.1.6
+64 silly idealTree │   │ │     ├── balanced-match@0.4.2
+64 silly idealTree │   │ │     └── concat-map@0.0.1
+64 silly idealTree │   │ ├─┬ fstream@1.0.10
+64 silly idealTree │   │ │ ├── graceful-fs@4.1.11
+64 silly idealTree │   │ │ └── inherits@2.0.3
+64 silly idealTree │   │ ├─┬ once@1.3.3
+64 silly idealTree │   │ │ └── wrappy@1.0.2
+64 silly idealTree │   │ ├─┬ readable-stream@2.1.5
+64 silly idealTree │   │ │ ├── buffer-shims@1.0.0
+64 silly idealTree │   │ │ ├── core-util-is@1.0.2
+64 silly idealTree │   │ │ ├── inherits@2.0.3
+64 silly idealTree │   │ │ ├── isarray@1.0.0
+64 silly idealTree │   │ │ ├── process-nextick-args@1.0.7
+64 silly idealTree │   │ │ ├── string_decoder@0.10.31
+64 silly idealTree │   │ │ └── util-deprecate@1.0.2
+64 silly idealTree │   │ └── uid-number@0.0.6
+64 silly idealTree │   └─┬ tar@2.2.1
+64 silly idealTree │     ├── block-stream@0.0.9
+64 silly idealTree │     ├─┬ fstream@1.0.10
+64 silly idealTree │     │ └── graceful-fs@4.1.11
+64 silly idealTree │     └── inherits@2.0.3
+64 silly idealTree ├── strip-ansi@3.0.1
+64 silly idealTree ├── supports-color@2.0.0
+64 silly idealTree └── temporal@0.5.0
+65 silly generateActionsToTake Starting
+66 silly install generateActionsToTake
+67 silly generateActionsToTake Finishing
+68 silly diffTrees action count 1
+69 silly diffTrees add jsupm_uln200xa@1.0.2-src
+70 silly decomposeActions action count 8
+71 silly decomposeActions fetch jsupm_uln200xa@1.0.2-src
+72 silly decomposeActions extract jsupm_uln200xa@1.0.2-src
+73 silly decomposeActions test jsupm_uln200xa@1.0.2-src
+74 silly decomposeActions preinstall jsupm_uln200xa@1.0.2-src
+75 silly decomposeActions build jsupm_uln200xa@1.0.2-src
+76 silly decomposeActions install jsupm_uln200xa@1.0.2-src
+77 silly decomposeActions postinstall jsupm_uln200xa@1.0.2-src
+78 silly decomposeActions finalize jsupm_uln200xa@1.0.2-src
+79 silly runTopLevelLifecycles Starting
+80 silly executeActions Starting
+81 silly install executeActions
+82 silly doSerial global-install 0
+83 silly doParallel fetch 1
+84 verbose correctMkdir /Users/jrcamilon/.npm/_locks correctMkdir not in flight; initializing
+85 verbose lock using /Users/jrcamilon/.npm/_locks/staging-d6f42e046a474fd7.lock for /Users/jrcamilon/node_modules/.staging
+86 silly doParallel extract 1
+87 silly extract jsupm_uln200xa@1.0.2-src
+88 verbose unbuild node_modules/.staging/jsupm_uln200xa-1ba52410
+89 silly gentlyRm /Users/jrcamilon/node_modules/.staging/jsupm_uln200xa-1ba52410 is being purged from base /Users/jrcamilon
+90 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/.staging/jsupm_uln200xa-1ba52410
+91 verbose tar unpack /Users/jrcamilon/.npm/jsupm_uln200xa/1.0.2-src/package.tgz
+92 verbose tar unpacking to /Users/jrcamilon/node_modules/.staging/jsupm_uln200xa-1ba52410
+93 silly gentlyRm /Users/jrcamilon/node_modules/.staging/jsupm_uln200xa-1ba52410 is being purged
+94 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/.staging/jsupm_uln200xa-1ba52410
+95 silly gunzTarPerm modes [ '755', '644' ]
+96 silly gunzTarPerm extractEntry
+97 silly gunzTarPerm extractEntry uln200xa.cxx
+98 silly gunzTarPerm extractEntry uln200xa_c.c
+99 silly gunzTarPerm extractEntry uln200xa.h
+100 silly gunzTarPerm extractEntry uln200xa.hpp
+101 silly gunzTarPerm extractEntry include/
+102 silly gunzTarPerm extractEntry include/fti/
+103 silly gunzTarPerm extractEntry include/fti/upm_acceleration.h
+104 silly gunzTarPerm extractEntry include/fti/upm_angle.h
+105 silly gunzTarPerm extractEntry include/fti/upm_audio.h
+106 silly gunzTarPerm extractEntry include/fti/upm_binary.h
+107 silly gunzTarPerm extractEntry include/fti/upm_distance.h
+108 silly gunzTarPerm extractEntry include/fti/upm_ec.h
+109 silly gunzTarPerm extractEntry include/fti/upm_heart_rate.h
+110 silly gunzTarPerm extractEntry include/fti/upm_humidity.h
+111 silly gunzTarPerm extractEntry include/fti/upm_joystick.h
+112 silly gunzTarPerm extractEntry include/fti/upm_light.h
+113 silly gunzTarPerm extractEntry include/fti/upm_moisture.h
+114 silly gunzTarPerm extractEntry include/fti/upm_orp.h
+115 silly gunzTarPerm extractEntry include/fti/upm_ph.h
+116 silly gunzTarPerm extractEntry include/fti/upm_potentiometer.h
+117 silly gunzTarPerm extractEntry include/fti/upm_raw.h
+118 silly gunzTarPerm extractEntry include/fti/upm_sensor.h
+119 silly gunzTarPerm extractEntry include/fti/upm_servo.h
+120 silly gunzTarPerm extractEntry include/fti/upm_stream.h
+121 silly gunzTarPerm extractEntry include/fti/upm_switch.h
+122 silly gunzTarPerm extractEntry include/fti/upm_temperature.h
+123 silly gunzTarPerm extractEntry include/fti/upm_touch.h
+124 silly gunzTarPerm extractEntry include/fti/upm_vibration.h
+125 silly gunzTarPerm extractEntry include/fti/upm_voltage.h
+126 silly gunzTarPerm extractEntry include/fti/upm_rotaryencoder.h
+127 silly gunzTarPerm extractEntry include/fti/upm_pressure.h
+128 silly gunzTarPerm extractEntry include/upm.h
+129 silly gunzTarPerm extractEntry include/upm_fti.h
+130 silly gunzTarPerm extractEntry include/upm_internal.h
+131 silly gunzTarPerm extractEntry include/upm_math.h
+132 silly gunzTarPerm extractEntry include/upm_types.h
+133 silly gunzTarPerm extractEntry include/upm_platform.h
+134 silly gunzTarPerm extractEntry utilities/
+135 silly gunzTarPerm extractEntry utilities/CMakeLists.txt
+136 silly gunzTarPerm extractEntry utilities/upm_utilities.c
+137 silly gunzTarPerm extractEntry utilities/upm_utilities.h
+138 silly gunzTarPerm extractEntry upm/
+139 silly gunzTarPerm extractEntry upm/CMakeLists.txt
+140 silly gunzTarPerm extractEntry upm/iADC.hpp
+141 silly gunzTarPerm extractEntry upm/iCO2Sensor.hpp
+142 silly gunzTarPerm extractEntry upm/iHumiditySensor.hpp
+143 silly gunzTarPerm extractEntry upm/iLightController.hpp
+144 silly gunzTarPerm extractEntry upm/iLightSensor.hpp
+145 silly gunzTarPerm extractEntry upm/iModuleStatus.hpp
+146 silly gunzTarPerm extractEntry upm/iPressureSensor.hpp
+147 silly gunzTarPerm extractEntry upm/iTemperatureSensor.hpp
+148 silly gunzTarPerm extractEntry upm/interfaces.cxx
+149 silly gunzTarPerm extractEntry upm/javaupm_interfaces.i
+150 silly gunzTarPerm extractEntry upm/javaupm_light_sensor.i
+151 silly gunzTarPerm extractEntry upm/jsupm_interfaces.i
+152 silly gunzTarPerm extractEntry upm/pyupm_interfaces.i
+153 silly gunzTarPerm extractEntry binding.gyp
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm extractEntry README.md
+156 silly gunzTarPerm extractEntry jsupm_uln200xaJAVASCRIPT_wrap.cxx
+157 silly gentlyRm /Users/jrcamilon/node_modules/.staging/jsupm_uln200xa-1ba52410/node_modules is being purged
+158 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/.staging/jsupm_uln200xa-1ba52410/node_modules
+159 silly doParallel preinstall 1
+160 silly preinstall jsupm_uln200xa@1.0.2-src
+161 info lifecycle jsupm_uln200xa@1.0.2-src~preinstall: jsupm_uln200xa@1.0.2-src
+162 silly lifecycle jsupm_uln200xa@1.0.2-src~preinstall: no script for preinstall, continuing
+163 silly doReverseSerial remove 0
+164 silly doSerial move 0
+165 silly doSerial finalize 1
+166 silly finalize /Users/jrcamilon/node_modules/jsupm_uln200xa
+167 silly doSerial build 1
+168 silly build jsupm_uln200xa@1.0.2-src
+169 info linkStuff jsupm_uln200xa@1.0.2-src
+170 silly linkStuff jsupm_uln200xa@1.0.2-src has /Users/jrcamilon/node_modules as its parent node_modules
+171 verbose linkBins jsupm_uln200xa@1.0.2-src
+172 verbose linkMans jsupm_uln200xa@1.0.2-src
+173 silly doSerial global-link 0
+174 silly doParallel update-linked 0
+175 silly doSerial install 1
+176 silly install jsupm_uln200xa@1.0.2-src
+177 info lifecycle jsupm_uln200xa@1.0.2-src~install: jsupm_uln200xa@1.0.2-src
+178 verbose lifecycle jsupm_uln200xa@1.0.2-src~install: unsafe-perm in lifecycle true
+179 verbose lifecycle jsupm_uln200xa@1.0.2-src~install: PATH: /Users/jrcamilon/.nvm/versions/node/v7.7.4/lib/node_modules/npm/bin/node-gyp-bin:/Users/jrcamilon/node_modules/jsupm_uln200xa/node_modules/.bin:/Users/jrcamilon/node_modules/.bin:/Users/jrcamilon/.nvm/versions/node/v7.7.4/bin:/Users/jrcamilon/anaconda/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/usr/local/MacGPG2/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+180 verbose lifecycle jsupm_uln200xa@1.0.2-src~install: CWD: /Users/jrcamilon/node_modules/jsupm_uln200xa
+181 silly lifecycle jsupm_uln200xa@1.0.2-src~install: Args: [ '-c', 'node-gyp rebuild' ]
+182 silly lifecycle jsupm_uln200xa@1.0.2-src~install: Returned: code: 1  signal: null
+183 info lifecycle jsupm_uln200xa@1.0.2-src~install: Failed to exec install script
+184 verbose unlock done using /Users/jrcamilon/.npm/_locks/staging-d6f42e046a474fd7.lock for /Users/jrcamilon/node_modules/.staging
+185 silly rollbackFailedOptional Starting
+186 silly gentlyRm /Users/jrcamilon/node_modules/jsupm_uln200xa is being purged from base /Users/jrcamilon
+187 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/jsupm_uln200xa
+188 silly gentlyRm /Users/jrcamilon/node_modules/jsupm_uln200xa is being purged from base /Users/jrcamilon
+189 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/jsupm_uln200xa
+190 silly gentlyRm /Users/jrcamilon/node_modules/jsupm_uln200xa is being purged from base /Users/jrcamilon
+191 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/jsupm_uln200xa
+192 silly gentlyRm /Users/jrcamilon/node_modules/jsupm_uln200xa is being purged from base /Users/jrcamilon
+193 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/jsupm_uln200xa
+194 silly gentlyRm /Users/jrcamilon/node_modules/jsupm_uln200xa is being purged from base /Users/jrcamilon
+195 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/jsupm_uln200xa
+196 silly gentlyRm /Users/jrcamilon/node_modules/jsupm_uln200xa is being purged from base /Users/jrcamilon
+197 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/jsupm_uln200xa
+198 silly gentlyRm /Users/jrcamilon/node_modules/jsupm_uln200xa is being purged from base /Users/jrcamilon
+199 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/jsupm_uln200xa
+200 silly gentlyRm /Users/jrcamilon/node_modules/jsupm_uln200xa is being purged from base /Users/jrcamilon
+201 verbose gentlyRm don't care about contents; nuking /Users/jrcamilon/node_modules/jsupm_uln200xa
+202 silly vacuum-fs purging /Users/jrcamilon/node_modules/jsupm_uln200xa
+203 silly vacuum-fs purging /Users/jrcamilon/node_modules/jsupm_uln200xa
+204 silly vacuum-fs purging /Users/jrcamilon/node_modules/jsupm_uln200xa
+205 silly vacuum-fs purging /Users/jrcamilon/node_modules/jsupm_uln200xa
+206 silly vacuum-fs purging /Users/jrcamilon/node_modules/jsupm_uln200xa
+207 silly vacuum-fs purging /Users/jrcamilon/node_modules/jsupm_uln200xa
+208 silly vacuum-fs purging /Users/jrcamilon/node_modules/jsupm_uln200xa
+209 silly vacuum-fs purging /Users/jrcamilon/node_modules/jsupm_uln200xa
+210 silly vacuum-fs quitting because other entries in /Users/jrcamilon/node_modules
+211 silly vacuum-fs quitting because other entries in /Users/jrcamilon/node_modules
+212 silly vacuum-fs quitting because other entries in /Users/jrcamilon/node_modules
+213 silly vacuum-fs quitting because other entries in /Users/jrcamilon/node_modules
+214 silly vacuum-fs quitting because other entries in /Users/jrcamilon/node_modules
+215 silly vacuum-fs quitting because other entries in /Users/jrcamilon/node_modules
+216 silly vacuum-fs quitting because other entries in /Users/jrcamilon/node_modules
+217 silly vacuum-fs quitting because other entries in /Users/jrcamilon/node_modules
+218 silly rollbackFailedOptional Finishing
+219 silly runTopLevelLifecycles Finishing
+220 silly install printInstalled
+221 warn enoent ENOENT: no such file or directory, open '/Users/jrcamilon/package.json'
+222 verbose enoent ENOENT: no such file or directory, open '/Users/jrcamilon/package.json'
+222 verbose enoent This is most likely not a problem with npm itself
+222 verbose enoent and is related to npm not being able to find a file.
+223 warn jrcamilon No description
+224 verbose If you need help, you may report this error at:
+224 verbose     <https://github.com/npm/npm/issues>
+225 warn jrcamilon No repository field.
+226 verbose If you need help, you may report this error at:
+226 verbose     <https://github.com/npm/npm/issues>
+227 warn jrcamilon No README data
+228 verbose If you need help, you may report this error at:
+228 verbose     <https://github.com/npm/npm/issues>
+229 warn jrcamilon No license field.
+230 verbose If you need help, you may report this error at:
+230 verbose     <https://github.com/npm/npm/issues>
+231 verbose stack Error: jsupm_uln200xa@1.0.2-src install: `node-gyp rebuild`
+231 verbose stack Exit status 1
+231 verbose stack     at EventEmitter.<anonymous> (/Users/jrcamilon/.nvm/versions/node/v7.7.4/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
+231 verbose stack     at emitTwo (events.js:106:13)
+231 verbose stack     at EventEmitter.emit (events.js:194:7)
+231 verbose stack     at ChildProcess.<anonymous> (/Users/jrcamilon/.nvm/versions/node/v7.7.4/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+231 verbose stack     at emitTwo (events.js:106:13)
+231 verbose stack     at ChildProcess.emit (events.js:194:7)
+231 verbose stack     at maybeClose (internal/child_process.js:899:16)
+231 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+232 verbose pkgid jsupm_uln200xa@1.0.2-src
+233 verbose cwd /Users/jrcamilon/jfive
+234 error Darwin 16.4.0
+235 error argv "/Users/jrcamilon/.nvm/versions/node/v7.7.4/bin/node" "/Users/jrcamilon/.nvm/versions/node/v7.7.4/bin/npm" "install" "jsupm_uln200xa"
+236 error node v7.7.4
+237 error npm  v4.1.2
+238 error code ELIFECYCLE
+239 error jsupm_uln200xa@1.0.2-src install: `node-gyp rebuild`
+239 error Exit status 1
+240 error Failed at the jsupm_uln200xa@1.0.2-src install script 'node-gyp rebuild'.
+240 error Make sure you have the latest version of node.js and npm installed.
+240 error If you do, this is most likely a problem with the jsupm_uln200xa package,
+240 error not with npm itself.
+240 error Tell the author that this fails on your system:
+240 error     node-gyp rebuild
+240 error You can get information on how to open an issue for this project with:
+240 error     npm bugs jsupm_uln200xa
+240 error Or if that isn't available, you can get their info via:
+240 error     npm owner ls jsupm_uln200xa
+240 error There is likely additional logging output above.
+241 verbose exit [ 1, true ]
